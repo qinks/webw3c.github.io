@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>平凡的世界</title>
+  
+  <subtitle>人生重要的不是所站的位置，而是所朝的方向。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-01-03T08:47:58.244Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>PAN</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>蝶恋花·庭院深深深几许</title>
+    <link href="http://yoursite.com/2019/01/03/%E8%9D%B6%E6%81%8B%E8%8A%B1%C2%B7%E5%BA%AD%E9%99%A2%E6%B7%B1%E6%B7%B1%E6%B7%B1%E5%87%A0%E8%AE%B8/"/>
+    <id>http://yoursite.com/2019/01/03/蝶恋花·庭院深深深几许/</id>
+    <published>2019-01-03T08:40:10.000Z</published>
+    <updated>2019-01-03T08:47:58.244Z</updated>
+    
+    <content type="html"><![CDATA[<p>庭院深深深几许，杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。<br>雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，乱红飞过秋千去。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;庭院深深深几许，杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。&lt;br&gt;雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，乱红飞过秋千去。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo</title>
+    <link href="http://yoursite.com/2019/01/03/hello-world/"/>
+    <id>http://yoursite.com/2019/01/03/hello-world/</id>
+    <published>2019-01-03T02:43:44.267Z</published>
+    <updated>2019-01-03T09:58:32.263Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! 这是你第一次发帖。可以查请参阅详细<a href="https://hexo.io/docs/" target="_blank" rel="noopener">文档信息</a>，如果您在使用Hexo时遇到任何问题，您可以在<a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">故障排除</a>中找到答案，也可以在<a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>上问我！</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;欢迎来到 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! 这是你第一次发帖。可以查请参阅详细&lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
