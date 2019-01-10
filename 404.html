@@ -13,12 +13,15 @@
     <h3 style="text-align:center; margin-top: 50px;">愿世界有爱，愿世界有温度。 - PAN</h3>
     <p style="text-align:center;"><a href="https://pojian.xyz" style="text-decoration: none; color: dodgerblue;" target="_blank" rel="noopener">返回博客首页 &gt;</a></p>
     <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone_v6/lostchild/search_children.js" charset="utf-8"></script>
-    <script>
-    $(function(){
-        $('.side_infos a').last().hide();
-        $('.side_infos .symbol').hide();
-    })
-    </script>
+    <!-- <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone_v6/lostchild/search_children.js" charset="utf-8"></script> -->
+    <script type="text/javascript">
+        var domain='http://qzonestyle.gtimg.cn/qzone_v6/lostchild/';
+        document.write('<script type="text/javascript" src="'+domain+'data.js"></script>');
+        document.write('<script type="text/javascript" src="'+domain+'page.js"></script>');
+        $(function(){
+            $('.side_infos a').last().hide();
+            $('.side_infos .symbol').hide();
+        })
+    
 </body>
 </html>
