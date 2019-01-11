@@ -5,9 +5,9 @@
   <subtitle>人生重要的不是所站的位置，而是所朝的方向。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://pojian.xyz/"/>
   <updated>2019-01-10T05:24:14.516Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://pojian.xyz/</id>
   
   <author>
     <name>PAN</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>蝶恋花·庭院深深深几许</title>
-    <link href="http://yoursite.com/2019/01/03/%E8%9D%B6%E6%81%8B%E8%8A%B1%C2%B7%E5%BA%AD%E9%99%A2%E6%B7%B1%E6%B7%B1%E6%B7%B1%E5%87%A0%E8%AE%B8/"/>
-    <id>http://yoursite.com/2019/01/03/蝶恋花·庭院深深深几许/</id>
+    <link href="https://pojian.xyz/2019/01/03/%E8%9D%B6%E6%81%8B%E8%8A%B1%C2%B7%E5%BA%AD%E9%99%A2%E6%B7%B1%E6%B7%B1%E6%B7%B1%E5%87%A0%E8%AE%B8/"/>
+    <id>https://pojian.xyz/2019/01/03/蝶恋花·庭院深深深几许/</id>
     <published>2019-01-03T08:40:10.000Z</published>
     <updated>2019-01-10T05:24:14.516Z</updated>
     
@@ -35,17 +35,17 @@
     
     </summary>
     
-      <category term="诗词" scheme="http://yoursite.com/categories/%E8%AF%97%E8%AF%8D/"/>
+      <category term="诗词" scheme="https://pojian.xyz/categories/%E8%AF%97%E8%AF%8D/"/>
     
     
-      <category term="宋词" scheme="http://yoursite.com/tags/%E5%AE%8B%E8%AF%8D/"/>
+      <category term="宋词" scheme="https://pojian.xyz/tags/%E5%AE%8B%E8%AF%8D/"/>
     
   </entry>
   
   <entry>
     <title>Hexo + Github Page + Next搭建个人静态博客</title>
-    <link href="http://yoursite.com/2019/01/03/hello-world/"/>
-    <id>http://yoursite.com/2019/01/03/hello-world/</id>
+    <link href="https://pojian.xyz/2019/01/03/hello-world/"/>
+    <id>https://pojian.xyz/2019/01/03/hello-world/</id>
     <published>2019-01-03T02:43:44.267Z</published>
     <updated>2019-01-11T10:30:50.330Z</updated>
     
@@ -60,10 +60,10 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://pojian.xyz/categories/Hexo/"/>
     
     
-      <category term="Hexo[Hexo, Github Page, SEO]" scheme="http://yoursite.com/tags/Hexo-Hexo-Github-Page-SEO/"/>
+      <category term="Hexo[Hexo, Github Page, SEO]" scheme="https://pojian.xyz/tags/Hexo-Hexo-Github-Page-SEO/"/>
     
   </entry>
   
