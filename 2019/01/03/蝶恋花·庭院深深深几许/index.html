@@ -362,7 +362,7 @@
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="PAN">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="研究互联网产品和技术">
       <meta itemprop="image" content="https://avatars1.githubusercontent.com/u/8156261?s=460&v=4">
     </span>
 
@@ -509,6 +509,22 @@
     <footer class="post-footer">
       
         <div class="post-tags">
+          <div class="social-share-cs" style="text-align: center;"></div>
+          <!--  css & js -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+          <script>
+            window.onload = function (){
+              var $config = {
+                disabled            : ['qzone', 'qq', 'google', 'facebook', 'twitter', 'douban', 'tencent', 'linkedin', 'diandian'], 
+                // image               : '', // 图片, 默认取网页中第一个img标签
+                wechatQrcodeTitle   : "微信扫一扫：分享", // 微信二维码提示文字
+                wechatQrcodeHelper  : '<p>扫一扫分享至朋友圈</p>',
+              };
+              socialShare('.social-share-cs', $config);
+            }
+          </script>
+
           
             <a href="/tags/宋词/" rel="tag"># 宋词</a>
           
@@ -588,7 +604,7 @@
               <img class="site-author-image" itemprop="image" src="https://avatars1.githubusercontent.com/u/8156261?s=460&v=4" alt="PAN">
             
               <p class="site-author-name" itemprop="name">PAN</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">研究互联网产品和技术</p>
           </div>
 
           
@@ -631,8 +647,6 @@
                 <div class="site-state-item site-state-tags">
                   
                     
-                    
-                      
                     
                       
                     
@@ -783,35 +797,6 @@
 
     
 
-    
-      <div>
-        
-  <script>
-    window._bd_share_config = {
-      "common": {
-        "bdText": "",
-        "bdMini": "1",
-        "bdMiniList": false,
-        "bdPic": ""
-      },
-      "image": {
-        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
-        "viewText": "分享到：",
-        "viewSize": "16"
-      },
-      "slide": {
-        "bdImg": "5",
-        "bdPos": "left",
-        "bdTop": "100"
-      }
-    }
-  </script>
-
-<script>
-  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
-</script>
-
-      </div>
     
 
     
