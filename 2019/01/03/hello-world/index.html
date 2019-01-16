@@ -157,7 +157,7 @@
 <meta property="og:image" content="https://wx3.sinaimg.cn/large/889d1a94gy1fz7eumo8agj20ti0nkaez.jpg">
 <meta property="og:image" content="https://ws3.sinaimg.cn/large/889d1a94gy1fz7f4xv3w1j21hc0cx79q.jpg">
 <meta property="og:image" content="https://wx2.sinaimg.cn/large/889d1a94gy1fz7f64cwx8j21h00ec79e.jpg">
-<meta property="og:updated_time" content="2019-01-16T02:28:13.144Z">
+<meta property="og:updated_time" content="2019-01-16T03:16:58.193Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="超详细Hexo+Github Page搭建技术博客教程【持续更新】">
 <meta name="twitter:description" content="前言博客有第三方平台，也可以自建，比较早的有博客园、CSDN，近几年新兴的也比较多诸如：WordPress、segmentFault、简书、掘金、知乎专栏、Github Page 等等。 这次我要说的就是 Github Page + Hexo 搭建个人博客的方式！Github Page 是 Github 提供的一种免费的静态网页托管服务（所以想想免费的空间不用也挺浪费的哈哈哈），可以用来托管博客、">
@@ -470,7 +470,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-16 10:28:13" itemprop="dateModified" datetime="2019-01-16T10:28:13+08:00">2019-01-16</time>
+                <time title="修改时间：2019-01-16 11:16:58" itemprop="dateModified" datetime="2019-01-16T11:16:58+08:00">2019-01-16</time>
               
             
           </span>
@@ -703,7 +703,7 @@
 <p>还要修改一个根目录配置文件下的URL，url 一项的值改成你在百度站长平台里面添加的自己站点的地址，这样生成的 sitemap.xml 文件里的 url 才是你站点的地址，看下图</p>
 <p><img src="https://wx3.sinaimg.cn/large/889d1a94gy1fz7cay1xf9j20qc03wjrs.jpg" alt="image"></p>
 <h3 id="五、添加蜘蛛协议robots-txt"><a href="#五、添加蜘蛛协议robots-txt" class="headerlink" title="五、添加蜘蛛协议robots.txt"></a>五、添加蜘蛛协议robots.txt</h3><p>增加 robots.txt 文件，就是蜘蛛协议，新建 robots.txt 文件添加以下内容，把 robots.txt 放在 /source 文件下，我们前面说过 /source 目录下的文件是会被打包上传的。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># hexo robots.txt</span></span><br><span class="line">User-agent: *</span><br><span class="line">Allow: /</span><br><span class="line">Allow: /archives/</span><br><span class="line">Allow: /categories/</span><br><span class="line">Allow: /tags/</span><br><span class="line"></span><br><span class="line">Disallow: /vendors/</span><br><span class="line">Disallow: /js/</span><br><span class="line">Disallow: /css/</span><br><span class="line">Disallow: /fonts/</span><br><span class="line">Disallow: /vendors/</span><br><span class="line">Disallow: /fancybox/</span><br><span class="line"></span><br><span class="line">Sitemap: https://pojian.xyz/sitemap.xml</span><br><span class="line">Sitemap: https://pojian.xyz/baidusitemap.xml</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># hexo robots.txt</span></span><br><span class="line">User-agent: *</span><br><span class="line">Allow: /</span><br><span class="line">Allow: /archives/</span><br><span class="line"></span><br><span class="line">Disallow: /vendors/</span><br><span class="line">Disallow: /js/</span><br><span class="line">Disallow: /css/</span><br><span class="line">Disallow: /fonts/</span><br><span class="line">Disallow: /vendors/</span><br><span class="line">Disallow: /fancybox/</span><br><span class="line"></span><br><span class="line">Sitemap: https://pojian.xyz/sitemap.xml</span><br><span class="line">Sitemap: https://pojian.xyz/baidusitemap.xml</span><br></pre></td></tr></table></figure>
 <p>Allow后面的就是你的menu，还有最下面的 Sitemap 地址请自行改成你们自己的地址</p>
 <p>完成后，重启hexo，执行 hexo g -d 重新生成文件并提交后，在public目录下会生成对应的xml文件。可以通过 <a href="http://xxx.com/sitemap.xml" target="_blank" rel="noopener">http://xxx.com/sitemap.xml</a> 和 <a href="http://xxx.com/baidusitemap.xml" target="_blank" rel="noopener">http://xxx.com/baidusitemap.xml</a> 访问到 sitemap 文件，通过 <a href="http://xxx.com/robots.txt" target="_blank" rel="noopener">http://xxx.com/robots.txt</a> 访问到 robots.txt 文件。</p>
 <p>可以到百度站长检测一下 robots.txt 文件是否生效</p>
