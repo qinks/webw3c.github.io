@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>破茧</title>
   
-  <subtitle>路漫漫其修远兮，吾将上下而求索</subtitle>
+  <subtitle>愿你的代码可改变世界</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pojian.xyz/"/>
-  <updated>2019-01-16T10:29:23.090Z</updated>
+  <updated>2019-01-22T10:47:33.965Z</updated>
   <id>https://pojian.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决Mac下SSH连接闲时自动断开的问题</title>
+    <link href="https://pojian.xyz/2019/01/22/macsshconnection/"/>
+    <id>https://pojian.xyz/2019/01/22/macsshconnection/</id>
+    <published>2019-01-22T10:32:19.000Z</published>
+    <updated>2019-01-22T10:47:33.965Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 Mac 自带终端 SSH 连接服务器时，只要隔一小段时间不进行操作的话连接就会自动中断，造成了不好的体验。解决方法如下：</p><p>1、连接到你的服务器</p><p>2、编辑服务端配置文件 /etc/ssh/sshd_config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure></p><p>添加以下两行配置代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ClientAliveInterval 30</span><br><span class="line">ClientAliveCountMax 3</span><br></pre></td></tr></table></figure><p>3、编辑客户端配置文件 /etc/ssh/ssh_config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/ssh/ssh_config</span><br></pre></td></tr></table></figure></p><p>在 Host * 下面添加以下两行配置代码<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ServerAliveInterval 30</span><br><span class="line">ServerAliveCountMax 3</span><br></pre></td></tr></table></figure></p><p>4、断开SSH连接<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + d</span><br></pre></td></tr></table></figure></p><p>5、SSH 重连服务然后执行重启<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sync 将数据由内存同步到硬盘中。</span><br><span class="line">reboot 就是重启</span><br></pre></td></tr></table></figure></p><p>重启后可能需要等待1分钟左右才能重新连接上。</p><p>最后验证测试就可以了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;使用 Mac 自带终端 SSH 连接服务器时，只要隔一小段时间不进行操作的话连接就会自动中断，造成了不好的体验。解决方法如下：&lt;/p&gt;
+&lt;p&gt;1、连接到你的服务器&lt;/p&gt;
+&lt;p&gt;2、编辑服务端配置文件 /etc/ssh/sshd_config&lt;br&gt;&lt;figure clas
+      
+    
+    </summary>
+    
+      <category term="Mac" scheme="https://pojian.xyz/categories/Mac/"/>
+    
+    
+      <category term="Mac" scheme="https://pojian.xyz/tags/Mac/"/>
+    
+      <category term="SSH" scheme="https://pojian.xyz/tags/SSH/"/>
+    
+  </entry>
   
   <entry>
     <title>超详细Hexo+Github Page搭建技术博客教程【持续更新】</title>
