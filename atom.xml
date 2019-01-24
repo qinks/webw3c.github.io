@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pojian.xyz/"/>
-  <updated>2019-01-24T15:06:29.821Z</updated>
+  <updated>2019-01-24T15:14:14.114Z</updated>
   <id>https://pojian.xyz/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://pojian.xyz/2019/01/24/envideo/"/>
     <id>https://pojian.xyz/2019/01/24/envideo/</id>
     <published>2019-01-24T15:03:56.000Z</published>
-    <updated>2019-01-24T15:06:29.821Z</updated>
+    <updated>2019-01-24T15:14:14.114Z</updated>
     
-    <content type="html"><![CDATA[<p>今天我正在灰常认真的上班工作，忽然“叮咚”一响，微信来消息了，原来是婷小妹给我发了个消息</p><p><img src="//wx1.sinaimg.cn/large/889d1a94gy1fzi1nkpitsj20sq0d2q8g.jpg" alt="image"></p><p>原来是儿子早中心购买的英文课视频一年期满后就不能观看了，除非要购买他们一套教学玩具才赠送永久观看权限，三四百块呀，我下意识的摸了摸钱包，干瘪干瘪的，只好默默的打开 Charles</p><p><img src="//wx4.sinaimg.cn/large/889d1a94gy1fzi1t1k2lij20au078q4d.jpg" alt="image"></p><p>打开后在菜单中找到 Proxy 把 macOS Proxy 前的勾去掉，因为现在是 APP 抓包</p><p><img src="//ws4.sinaimg.cn/large/889d1a94gy1fzi1vly429j20dw0hwwrf.jpg" alt="image"></p><p>然后 Proxy –&gt; Proxy Settings… 打开设置，端口填 8888</p><p><img src="//ws2.sinaimg.cn/large/889d1a94gy1fzi1yrhrw9j20ww0s2mzo.jpg" alt="image"></p><p>接下来就是手机端的设置了，PC 和手机必须要在同一 wifi 网络内。</p><p>进入你手机当前连接的 wifi 可以看到有个 http 代理，选择手动，服务器填你 PC 的的 ip 地址，这个你自己应该会看啦，略过，端口就填 Charles 中设置的 8888，选择存储。</p><p><img src="//ws2.sinaimg.cn/large/889d1a94gy1fzi23ykx3kj20os18agr6.jpg" alt="image"></p><p><img src="//wx2.sinaimg.cn/large/889d1a94gy1fzi29mz394j20os18aae7.jpg" alt="image"></p><p>保存后你会看到 PC 端会弹出提示，选择 Allow 就可以了</p><p><img src="//wx1.sinaimg.cn/large/889d1a94gy1fzi28rfcn8j217a08yac4.jpg" alt="image"></p><p>接下来就是打开你要抓包的APP就可以看到请求啦，如果数据没有加密一般都可以看得到，下面就是我要的课程视频链接啦</p><p><img src="//ws3.sinaimg.cn/large/889d1a94gy1fzi2lwt0ohj21kc16iaqj.jpg" alt="image"></p><p>可以交货了 :-)</p>]]></content>
+    <content type="html"><![CDATA[<p>今天我正在灰常认真的上班工作，忽然“叮咚”一响，微信来消息了，原来是婷小妹给我发了个消息</p><p><img src="//wx1.sinaimg.cn/large/889d1a94gy1fzi1nkpitsj20sq0d2q8g.jpg" alt="image"></p><p>原来是儿子早中心购买的英文课视频一年期满后就不能观看了，除非要购买他们一套教学玩具才赠送永久观看权限，三四百块呀，我下意识的摸了摸钱包，干瘪干瘪的，只好默默的打开 Charles</p><p><img src="//wx4.sinaimg.cn/large/889d1a94gy1fzi1t1k2lij20au078q4d.jpg" alt="image"></p><p>打开后在菜单中找到 Proxy 把 macOS Proxy 前的勾去掉，因为现在是 APP 抓包</p><p><img src="//ws4.sinaimg.cn/large/889d1a94gy1fzi1vly429j20dw0hwwrf.jpg" alt="image"></p><p>然后 Proxy –&gt; Proxy Settings… 打开设置，端口填 8888</p><p><img src="//ws2.sinaimg.cn/large/889d1a94gy1fzi1yrhrw9j20ww0s2mzo.jpg" alt="image"></p><p>接下来就是手机端的设置了，PC 和手机必须要在同一 wifi 网络内。</p><p>进入你手机当前连接的 wifi 可以看到有个 http 代理，选择手动，服务器填你 PC 的的 ip 地址，这个你自己应该会看啦，略过，端口就填 Charles 中设置的 8888，选择存储。</p><p><img src="//ws2.sinaimg.cn/large/889d1a94gy1fzi23ykx3kj20os18agr6.jpg" alt="image"></p><p><img src="//wx2.sinaimg.cn/large/889d1a94gy1fzi29mz394j20os18aae7.jpg" alt="image"></p><p>保存后你会看到 PC 端会弹出提示，选择 Allow 就可以了</p><p><img src="//wx1.sinaimg.cn/large/889d1a94gy1fzi28rfcn8j217a08yac4.jpg" alt="image"></p><p>接下来就是打开你要抓包的APP就可以看到请求啦，如果数据没有加密一般都可以看得到，下面就是我要的课程视频链接啦</p><p><img src="//ws3.sinaimg.cn/large/889d1a94gy1fzi2lwt0ohj21kc16iaqj.jpg" alt="image"></p><p>可以交货了 :-)</p><p>对了，最后抓完之后记得在手机把 http 代理关闭，要不手机上网会不正常的哦。</p>]]></content>
     
     <summary type="html">
     
