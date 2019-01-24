@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pojian.xyz/"/>
-  <updated>2019-01-23T15:17:21.522Z</updated>
+  <updated>2019-01-24T02:38:47.616Z</updated>
   <id>https://pojian.xyz/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>非微信官方网页，继续访问将转换成手机预览模式</title>
+    <link href="https://pojian.xyz/2019/01/24/wechatnoaccess/"/>
+    <id>https://pojian.xyz/2019/01/24/wechatnoaccess/</id>
+    <published>2019-01-24T02:03:36.000Z</published>
+    <updated>2019-01-24T02:38:47.616Z</updated>
+    
+    <content type="html"><![CDATA[<p>你的网站如果没有在公众后台设置JS接口安全域名的话会提示“非微信官方网页，继续访问将转换成手机预览模式”，所以呢先登录你的公众号后台设置一下，设置–&gt;公众号设置–&gt;功能设置–&gt;JS接口安全域名</p><p><img src="//wx1.sinaimg.cn/large/889d1a94gy1fzhgbe2vcuj20vq09c74r.jpg" alt="image"></p><p><img src="//wx2.sinaimg.cn/large/889d1a94gy1fzhghbt49vj21pa0r8q5q.jpg" alt="image"></p><p><img src="//ws3.sinaimg.cn/large/889d1a94gy1fzhglivs9vj21sm13i7at.jpg" alt="image"></p><p>点设置后弹窗你会看到几点要求，其中主要的是第二第三点，你的域名是要备案过的，另外需要把 MP_verify_9Ejr0IPEERUl7Xp8.txt 文件下载放至你的服务器或者空间根目录下，最后添加你的站点域名，如果通过 <a href="http://www.xxx.com/MP_verify_9Ejr0IPEERUl7Xp8.txt" target="_blank" rel="noopener">www.xxx.com/MP_verify_9Ejr0IPEERUl7Xp8.txt</a> 能访问到这个文件，在添加域名之后一般是能保存成功的，会有相应的提示。</p><p>注：<br>1、如果还没备案的话提交备案到完成可能至少要六七天的时间估计，但也是不确定的具体要看相应的情况，而且备案完成后还需要等待1-3天才能查询得到你的备案信息。<br>2、因为我的只是个人订阅号，所以只有 JS接口安全域名这一项，如果是认证的账号还会有业务域名和网页授权域名。</p><p>添加成功后你的站点就能正常的在微信内打开了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;你的网站如果没有在公众后台设置JS接口安全域名的话会提示“非微信官方网页，继续访问将转换成手机预览模式”，所以呢先登录你的公众号后台设置一下，设置–&amp;gt;公众号设置–&amp;gt;功能设置–&amp;gt;JS接口安全域名&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//wx1.sinaimg.
+      
+    
+    </summary>
+    
+      <category term="工具" scheme="https://pojian.xyz/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="微信" scheme="https://pojian.xyz/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+      <category term="公众号" scheme="https://pojian.xyz/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>聊聊新的一年</title>
